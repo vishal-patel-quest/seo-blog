@@ -9,6 +9,8 @@ import Blog from "./pages/Blog";
 import BlogPost1 from "./pages/BlogPost1";
 import BlogPost2 from "./pages/BlogPost2";
 import Blog_level_up_your_flutter_game__creating_a_blog_without_breaking_a_sweat from './src/content/blog/level-up-your-flutter-game--creating-a-blog-without-breaking-a-sweat';
+import Blog_supercharge_your_sales__the_ultimate_guide_to_product_announcement_success from './src/content/blog/supercharge-your-sales--the-ultimate-guide-to-product-announcement-success';
+
 
 export { API_URL } from "./config";
 
@@ -28,6 +30,7 @@ const App = () => (
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
           <Route path="/blog/level-up-your-flutter-game--creating-a-blog-without-breaking-a-sweat" element={<Blog_level_up_your_flutter_game__creating_a_blog_without_breaking_a_sweat />} />
+        <Route path="/blog/supercharge-your-sales--the-ultimate-guide-to-product-announcement-success" element={<Blog_supercharge_your_sales__the_ultimate_guide_to_product_announcement_success />} />
       </Routes>
       </BrowserRouter>
     </TooltipProvider>
